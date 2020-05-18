@@ -13,6 +13,7 @@
 		8515FB0E246ABB7200630DFD /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8515FB0D246ABB7200630DFD /* GlobalFunctions.swift */; };
 		8515FB10246ABCB000630DFD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8515FB0F246ABCB000630DFD /* Data.swift */; };
 		8515FB13246AC34800630DFD /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8515FB12246AC34800630DFD /* UIImageViewExtension.swift */; };
+		852FD1232472677F002BCD9D /* SQLiteOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852FD1222472677F002BCD9D /* SQLiteOperations.swift */; };
 		85EE4390246AA67C005B0647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE438F246AA67C005B0647 /* AppDelegate.swift */; };
 		85EE4395246AA67D005B0647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85EE4393246AA67D005B0647 /* Main.storyboard */; };
 		85EE4397246AA67D005B0647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EE4396246AA67D005B0647 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		8515FB0D246ABB7200630DFD /* GlobalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
 		8515FB0F246ABCB000630DFD /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		8515FB12246AC34800630DFD /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		852FD1222472677F002BCD9D /* SQLiteOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteOperations.swift; sourceTree = "<group>"; };
 		85EE438C246AA67C005B0647 /* FavouriteActors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteActors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85EE438F246AA67C005B0647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85EE4394246AA67D005B0647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				8515FB0D246ABB7200630DFD /* GlobalFunctions.swift */,
+				852FD1222472677F002BCD9D /* SQLiteOperations.swift */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				8515FB0E246ABB7200630DFD /* GlobalFunctions.swift in Sources */,
 				8515FB0B246AB40E00630DFD /* ThirdViewController.swift in Sources */,
 				8515FB07246AB3D000630DFD /* FirstViewController.swift in Sources */,
+				852FD1232472677F002BCD9D /* SQLiteOperations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

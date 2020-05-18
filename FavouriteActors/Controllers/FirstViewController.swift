@@ -13,8 +13,6 @@ class FirstViewController: UIViewController {
 
     @IBOutlet weak var tableViewActors: UITableView!
     
-//    lazy var arrData = [actorData]()
-    
     var db: OpaquePointer?
     
     override func viewDidLoad() {
@@ -31,6 +29,7 @@ class FirstViewController: UIViewController {
         
         openDatabase()
     }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
         
